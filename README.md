@@ -66,3 +66,7 @@ Ahora que ya estan las instrucciones, que esperas, disfruta el proyecto.
 
 
 
+El index se para abrir el proyecto se llama: games_fps.html dentro de la carpeta de examples
+
+
+
