@@ -28,7 +28,18 @@ Somos Juan José, Angie Natalia y Camila y este es nuestro proyecto final.
   - Octree (Gestión de colisiones).
 
 ## Código principal (games_fps.html)
+```javascript
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(70, window.innerWidth / window.innerHeight, 0.1, 1000);
+const renderer = new THREE.WebGLRenderer({ antialias: true });
 
+##Carga del personaje
+loader.load('caveman.gltf', (gltf) => {
+    caveman = gltf.scene;
+    caveman.position.set(-20, -9, 1); // Posición inicial
+    scene.add(caveman);
+});
+```
 ### Inicialización de la escena
 
 javascript
